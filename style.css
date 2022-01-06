@@ -13,6 +13,11 @@
     src: url("fonts/ArbelHagilda_Bold\ [Menukad].woff2") format("woff2");
 }
 
+@font-face {
+    font-family: "masadamono-demiitalik";
+    src: url("fonts/MasadaMono-DemiItalic.woff2") format("woff2");
+}
+
 * {
     box-sizing: border-box;
 }
@@ -25,7 +30,6 @@ header {
 }
 
 h1 {
-    font-family: "masadamono", "arial", sans-serif;
     font-size: 5rem;
     color: #f26c50;
     display: inline-block;
@@ -37,6 +41,10 @@ h1 {
     left: 8%;
 }
 
+h1, h2, h3 {
+    font-family: "masadamono", sans-serif;
+}
+
 .placeholder {
     width: 100%;
     height: 80%;
@@ -44,21 +52,24 @@ h1 {
     position: relative;
 }
 
+.smallheader {
+    font-family: "arbelbold", serif;
+}
+
 .opaning {
     display: inline-block;
-    font-family: "arbelbold", serif;
     font-size: 1.4em;
     height: auto;
-    width: 600px;
+    width: 550px;
     min-width: 200px;
     margin: 160px 10% 0px;
     /* border: solid 5px red; */
 
 }
 
-
 .container {
     display: flex;  
+    margin-top: 100px;
 }
 
 .left {
@@ -72,12 +83,10 @@ h1 {
 .article {
     font-family: "arbelreg", serif;
     font-size: 1.4em;
+    height: auto;
     width: 38%;
     min-width: 400px;
     /*border: solid 5px red; */
-}
-h2 {
-    font-family: "masadamono", sans-serif;
 }
 
 /*.backround {
@@ -94,6 +103,31 @@ h2 {
 .placeholder1 {
     width: 120px;
     height: 85px;
-    background-color: blue;
+    background-color: blue; 
+    
 }
+
+footer h3 {
+    width: 100%;
+    margin-right: 150px;
+}
+
+nav {
+    display: flex;
+
+}
+
+.footer {
+    display: flex;
+    font-family: "masadamono-demiitalik", sans-serif;
+    color:#f26c50;
+    border-width: 3px;
+    border-color: blue;
+    border-style: dotted;
+    height: 100px;
+    width: 150px;
+    padding: 11px;
+    margin-top: 150px;
+}
+
 
