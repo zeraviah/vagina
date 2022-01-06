@@ -63,10 +63,13 @@ h1, h2, h3 {
 .opaning {
     font-family: "masadamono";
     display: inline-block;
+    width: 70%;
     font-size: 2em;
+    line-height: 1em;
     min-width: 200px;
-    margin: 150px;
-    /* border: solid 5px red; */
+    margin: 100px 50%;
+    transform: translateX(50%);
+    /* border: solid 5px red;  */
 
 }
 
@@ -77,6 +80,9 @@ h1, h2, h3 {
 
 .left {
     margin-left: 10.5%;
+    align-self: flex-start;
+    position: sticky;
+    top:auto;   
 }
 
 .right {
@@ -85,7 +91,8 @@ h1, h2, h3 {
 
 .article {
     font-family: "arbelreg", serif;
-    font-size: 1.4em;
+    font-size: 1.1em;
+    line-height: 1.3em;
     height: auto;
     width: 38%;
     min-width: 400px;
@@ -97,9 +104,11 @@ h1, h2, h3 {
     opacity: 90%;
     position: fixed;
     top: 50%;
-    left: 38%;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 100;
     text-decoration: underline;
+
 }
 
 
