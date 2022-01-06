@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "masadamono";
+    src: url("fonts/MasadaMono-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "arbelreg";
+    src: url("fonts/ArbelHagilda_Regular\ [Menukad].woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "arbelbold";
+    src: url("fonts/ArbelHagilda_Bold\ [Menukad].woff2") format("woff2");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display:inline-block;
+    width: 100%;
+    min-width: 400px;
+    height: 100%;
+}
+
+h1 {
+    font-family: "masadamono", "arial", sans-serif;
+    font-size: 5rem;
+    color: #f26c50;
+    display: inline-block;
+    /*border: solid 5px red;*/
+    width: 85%;
+    position: absolute;
+    margin: auto;
+    bottom: 3%;
+    left: 8%;
+}
+
+.placeholder {
+    width: 100%;
+    height: 80%;
+    background-color: blue;
+    position: relative;
+}
+
+.opaning {
+    display: inline-block;
+    font-family: "arbelbold", serif;
+    font-size: 1.4em;
+    height: auto;
+    width: 600px;
+    min-width: 200px;
+    margin: 160px 10% 0px;
+    /* border: solid 5px red; */
+
+}
+
+
+.container {
+    display: flex;  
+}
+
+.left {
+    margin-left: 10.5%;
+}
+
+.right {
+    margin-right: 10.5%;
+}
+
+.article {
+    font-family: "arbelreg", serif;
+    font-size: 1.4em;
+    width: 38%;
+    min-width: 400px;
+    /*border: solid 5px red; */
+}
+h2 {
+    font-family: "masadamono", sans-serif;
+}
+
+/*.backround {
+    color: #f26c50;
+    opacity: 90%;
+    position: fixed;
+    top: 50%;
+    left: 38%;
+    z-index: 1;
+
+}*/
+
+
+.placeholder1 {
+    width: 120px;
+    height: 85px;
+    background-color: blue;
+}
+
