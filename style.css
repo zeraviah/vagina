@@ -22,6 +22,10 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0px;
+}
+
 header {
     display:inline-block;
     width: 100%;
@@ -34,11 +38,10 @@ h1 {
     color: #f26c50;
     display: inline-block;
     /*border: solid 5px red;*/
-    width: 85%;
+    width: 100%;
     position: absolute;
-    margin: auto;
-    bottom: 3%;
-    left: 8%;
+    text-align: center;
+    bottom: 5px;
 }
 
 h1, h2, h3 {
@@ -50,6 +53,7 @@ h1, h2, h3 {
     height: 80%;
     background-color: blue;
     position: relative;
+    z-index: 200;
 }
 
 .smallheader {
@@ -57,12 +61,11 @@ h1, h2, h3 {
 }
 
 .opaning {
+    font-family: "masadamono";
     display: inline-block;
-    font-size: 1.4em;
-    height: auto;
-    width: 550px;
+    font-size: 2em;
     min-width: 200px;
-    margin: 160px 10% 0px;
+    margin: 150px;
     /* border: solid 5px red; */
 
 }
@@ -89,15 +92,16 @@ h1, h2, h3 {
     /*border: solid 5px red; */
 }
 
-/*.backround {
+.backround {
     color: #f26c50;
     opacity: 90%;
     position: fixed;
     top: 50%;
     left: 38%;
-    z-index: 1;
+    z-index: 100;
+    text-decoration: underline;
 
-}*/
+}
 
 
 .placeholder1 {
@@ -128,7 +132,7 @@ nav {
     width: 150px;
     padding: 11px;
     margin-top: 150px;
-    
+
 }
 
 
