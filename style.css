@@ -33,8 +33,9 @@ header {
     height: 100%;
 }
 
+
 h1 {
-    font-size: 5rem;
+    font-size: 3rem;
     color: #f26c50;
     display: inline-block;
     /*border: solid 5px red;*/
@@ -56,22 +57,21 @@ h1, h2, h3 {
     z-index: 200;
 }
 
-.smallheader {
-    font-family: "arbelbold", serif;
-}
 
 .opaning {
     font-family: "masadamono";
     display: inline-block;
-    width: 70%;
+    width: 75%;
     font-size: 2em;
-    line-height: 1em;
+    line-height: 1.1em;
+    letter-spacing: 0.01em;
     min-width: 200px;
-    margin: 100px 50%;
+    margin: 150px 50%;
     transform: translateX(50%);
     /* border: solid 5px red;  */
 
 }
+
 
 .container {
     display: flex;  
@@ -80,9 +80,9 @@ h1, h2, h3 {
 
 .left {
     margin-left: 10.5%;
-    align-self: flex-start;
     position: sticky;
-    top:auto;   
+    top: 0;  
+    align-self: flex-start; 
 }
 
 .right {
@@ -94,7 +94,7 @@ h1, h2, h3 {
     font-size: 1.1em;
     line-height: 1.3em;
     height: auto;
-    width: 38%;
+    width: 50%;
     min-width: 400px;
     /*border: solid 5px red; */
 }
@@ -142,5 +142,49 @@ nav {
     margin-top: 150px;
 
 }
+
+img {
+    width: 20px;
+}
+
+.box {
+    display:flex;
+    width: 100%;
+}
+
+.thirdpart {
+    width: 100%;
+    font-family: "arbelreg";
+
+}
+
+#woman {
+    width: 440px;
+    font-family: "arbelreg", serif;
+}
+#man {
+    width: 440px;
+    font-family: "arbelreg", serif;
+}
+
+
+.manvswoman {
+    width: 900px;
+    font-family: "arbelreg", serif;
+    margin:auto;
+}
+
+.summery {
+    width: 900px;
+    font-family: "arbelreg", serif;
+    margin:auto;
+}
+ .woman .man {
+     width: 400px;
+ }
+
+
+
+
 
 
