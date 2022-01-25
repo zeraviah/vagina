@@ -60,15 +60,12 @@ h1, h2, h3 {
 
 .opaning {
     font-family: "masadamono";
-    display: inline-block;
-    width: 75%;
+    width:900px;
     font-size: 2em;
     line-height: 1.1em;
     letter-spacing: 0.01em;
     min-width: 200px;
     margin: 150px auto;
-    transform: translateX(50%);
-    /* border: solid 5px red;  */
 
 }
 
