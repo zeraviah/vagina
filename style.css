@@ -1,6 +1,26 @@
 @font-face {
-    font-family: "masadamono";
-    src: url("fonts/MasadaMono-Bold.woff2") format("woff2");
+    font-family: "masadablack";
+    src: url("fonts/Masada-Black.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "masadamediumitalic";
+    src:url("fonts/Masada-MediumItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "masadabookitalic";
+    src: url("fonts/Masada-BookItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "masadabold";
+    src: url("fonts/Masada-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "masadamedium";
+    src: url("fonts/Masada-Medium.woff2") format("woff2");
 }
 
 @font-face {
@@ -14,8 +34,8 @@
 }
 
 @font-face {
-    font-family: "masadamono-demiitalik";
-    src: url("fonts/MasadaMono-DemiItalic.woff2") format("woff2");
+    font-family: "masada-book";
+    src: url(fonts/Masada-Book.woff2) format(woff2);
 }
 
 * {
@@ -26,109 +46,115 @@ body {
     margin: 0px;
 }
 
-header {
-    display:flex;
+.writer {
+    font-family:"masadamediumitalic", serif;
+    text-align: center;
+    font-size: 1.6em;
     width: 1440px;
-    height: 822px;
-}
-
-#bookname {
-    height: 822px;
-    text-align: center;
-}
-
-.headnbutt {
-    display: flex;
-    flex-direction: column;
-    height: 822px;
-}
-
-.headertextbox {
-    width: 750px;
-    height: 411px;
-    text-align: center;
-}
-
-.headertextbox h1 {
-    margin-top: 320px;
-}
-
-.bookname h3 {
-    transform: rotate(90deg)  translateX(390px) translateY(-130px); 
-    text-align: center;
-
-}
-
-.myname h3 {
-    transform: rotate(-90deg) translateX(-390px) translateY(-139px);
-    text-align: center; 
-    margin-left: 20px;  
-}
-
-.bookname, .myname {
-    width: 345px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-bottom: 0px;
 }
 
 h1 {
-    font-size: 3rem;
+    font-family: "masadablack", sans-serif;
+    font-size: 2.8rem;
+    letter-spacing: 0.05em;
     /* color: #f26c50; */
     width: 100%;
     text-align: center;
-    bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-top: -2px;
 }
 
-h1, h2, h3 {
-    font-family: "masadamono", sans-serif;
-}
-
-/*.placeholder {
+.opanimg {
     width: 1440px;
-    height: 822px;
-    background-color: blue;
-    position: relative;
-    z-index: 200;*/
 }
 
-article p.opaning {
-    font-family: "masadamono";
-    width:750px;
-    font-size: 1.2em;
-    line-height: 1.1em;
-    letter-spacing: 0.01em;
-    min-width: 200px;
+.credit {
+    font-family: "masadabookitalic", serif;
+    font-size: 0.8em;
+    width: 1440px;
+    text-align: center;
+}
+
+.opaning {
+    font-family: "masada-book";
+    font-size: 1.95em;
+    line-height: 1.2em;
+    letter-spacing: 0.03em;
+    width: 980px;
     margin: 150px auto;
 }
 
+.medium {
+    font-family: "masadamedium", serif;
+}
 
 
+h2 {
+    font-family: "masadabold", serif;
+    width: 1440px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+    margin-top: 0px auto 0px;
+    position: sticky;
+    top: 0px;
+}
+
+
+.aboutmain {
+    font-family: "masadabookitalic", serif;
+    font-size: 1.2em;
+    width: 50%;
+    margin: 350px auto 100px;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+}
 
 .container {
-    display: flex;  
-    margin-top: 100px;
+    width: 45%;
+    margin: 0px auto;
 }
 
-.left {
-    margin-left: 10.5%;
-    position: sticky;
-    top: 0;  
-    align-self: flex-start; 
+.container .credit {
+    position: relative;
+    bottom: 40px;
+    left: 600px;
 }
 
-.right {
-    margin-right: 10.5%;
+.info {
+    width: 45%;
+    margin: 30px auto;
 }
 
-.mainarticle {
+.main{
     font-family: "arbelreg", serif;
     font-size: 1.1em;
     line-height: 1.3em;
     height: auto;
-    width: 50%;
+    width: 100%;
     min-width: 400px;
-    /*border: solid 5px red; */
+    margin: 100px auto;
+    position: sticky;
+    align-self: flex-start;
 }
 
-.backround {
+/* .backround {
     color: #f26c50;
     opacity: 90%;
     position: fixed;
@@ -139,85 +165,22 @@ article p.opaning {
     text-decoration: underline;
 
 }
+ */
 
+ .footer {
+    /* font-family: "masadabold", serif;
+    font-size: 1.2em;
+    width: 1440px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px; */
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+ } 
 
-.placeholder1 {
-    width: 120px;
-    height: 85px;
-    background-color: blue; 
-    
-}
-
-footer h3 {
-    width: 100%;
-    margin-right: auto;
-}
-
-nav {
-    display: flex;
-
-}
-
-.footer {
-    display: flex;
-    font-family: "masadamono-demiitalik", sans-serif;
-    color:#f26c50;
-    border-width: 3px;
-    border-color: blue;
-    border-style: dotted;
-    height: 100px;
-    width: 150px;
-    padding: 11px;
-    margin-top: 150px;
-
-}
-
-img {
-    width: 20px;
-}
-
-.box {
-    display:flex;
-    width: 100%;
-}
-
-.thirdpart {
-    width: 100%;
-    font-family: "arbelreg";
-
-}
-
-#woman {
-    width: 440px;
-    font-family: "arbelreg", serif;
-}
-#man {
-    width: 440px;
-    font-family: "arbelreg", serif;
-}
-
-
-.manvswoman {
-    width: 900px;
-    font-family: "arbelreg", serif;
-    margin:auto;
-}
-
-.summery {
-    width: 900px;
-    font-family: "arbelreg", serif;
-    margin:auto;
-}
- .woman .man {
-     width: 400px;
+#footerer {
+    margin-top: -2px;
  }
-
- ul {
-     list-style: none;
- }
-
-
-
-
-
-
