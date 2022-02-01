@@ -49,8 +49,8 @@ body {
 .writer {
     font-family:"masadamediumitalic", serif;
     text-align: center;
-    font-size: 1.6em;
-    width: 1440px;
+    font-size: 1.6rem;
+    width: 100%;
     padding-top: 7px;
     padding-bottom: 7px;
     border-style: solid;
@@ -61,7 +61,7 @@ body {
 
 h1 {
     font-family: "masadablack", sans-serif;
-    font-size: 2.8rem;
+    font-size: 3rem;
     letter-spacing: 0.05em;
     /* color: #f26c50; */
     width: 100%;
@@ -75,22 +75,23 @@ h1 {
 }
 
 .opanimg {
-    width: 1440px;
+    width: 100%;
+    min-width: 400px;
 }
 
 .credit {
     font-family: "masadabookitalic", serif;
     font-size: 0.8em;
-    width: 1440px;
+    width: 100%;
     text-align: center;
 }
 
 .opaning {
     font-family: "masada-book";
     font-size: 1.95em;
-    line-height: 1.2em;
-    letter-spacing: 0.03em;
-    width: 980px;
+    line-height: 1.1em;
+    letter-spacing: 0.025em;
+    width: 65%;
     margin: 150px auto;
 }
 
@@ -101,7 +102,7 @@ h1 {
 
 h2 {
     font-family: "masadabold", serif;
-    width: 1440px;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     border-style: solid;
