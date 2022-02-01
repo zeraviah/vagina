@@ -150,8 +150,6 @@ img {
     width: 100%;
     min-width: 400px;
     margin: 100px auto;
-    position: sticky;
-    align-self: flex-start;
 }
 
 /* .backround {
