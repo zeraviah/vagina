@@ -126,14 +126,18 @@ h1 {
     display: none;
 }
 
+#aboutgmp {
+    transition: 200ms;
+}
+
 .opening > #aboutgmp > a:hover {
     letter-spacing: 0.05em;
     color: #164ee3;
-    transition: 200ms;
 }
 
 .medium {
     font-family: "masadamedium", serif;
+
 }
 
 h2 {
@@ -163,7 +167,7 @@ article .mainheader {
     line-height: 1em;
     width: 780px;
     max-width: 100%;
-    margin: 300px auto 300px;
+    margin: 150px auto 300px;
     min-width: 380px;
 }
 
